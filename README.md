@@ -34,6 +34,7 @@ the following commands:
 1. `!git add .`: Adds all the new files to the staging area
 2. `!git commit -m "Whatever short description"`: Commits changes to your local git repo on your computer
 3. `!git push`: Pushes the locally committed changes to the remote GitHub repo
+4. `!git pull`: Pulls the most recent changes to the repo
    
 
 
