@@ -41,7 +41,8 @@ Try using the commands above into the _Command Window_ and see if you can push y
 into GitHub. Check on the online github to see if it worked! **BUT** if you can an error about dubious ownership, 
 search for **Git Bash** on your computer and copy and paste what the command window wants you do into there. The line might 
 be something like `git config --global --add safe.directory C:/Users/u6052635/Box/CeciliaMonoli/Github-Undergrads/Undergrads`,
-**It will be individual to you!!**. 
+**It will be individual to you!!**. After pasting and running that line into GitBash, return to Matlab, and try add the 
+folder and readme file with `!git add .` and the rest of the commands til `!git push`.
    
 
 
