@@ -28,20 +28,26 @@ Ask the REPO owner to add you as a collaborator (Probably me, Selena) after you 
 After being added, return to Matlab. Ideally, go to a folder like Box or wherever you want to work on the 
 project. Paste `git clone --depth=1 https://github.com/SelenaChoUtah/Undergrads` into the command window, and it
 will clone the entire Undergrads repo into your folder. In the _Undergrads_ folder, create your own folder with your 
-own name (Right-click into the _ _) Here, you can start working on your project. Create a readme file (which is a *.md file) so 
-aka `myReadMe.md` and write whatever you want in it. There's a saying that *Commit early, commit often* where 
+own name (Right-click into the _ _) Here, you can start working on your project. 
+
+
+Try the following to practice using commands:
+
+Create a readme file (which is a *.md file) so aka `myReadMe.md` and write whatever you want in it. If you have Editor selected in Matlab meaning the window is highlighted in blue, you can just hit `ctrl`+`n` and a new window will pop up. Write anything random you want in there, hit the save button. Save the file as `myReadMe.md` and select _Save as type_ as _All Files *.*_. **The *.md is very important when naming the file**. The *.md signifies as a markdown file which is like a type of documentation. There's a saying that *Commit early, commit often* where 
 people commit several times a day, with messages that shortly describe what they do and the end of the day, they push. 
 Get handy using the following commands:
-1. `!git add .`: Adds all the new files to the staging area
+1. `!git add .`: Adds all the new files to the staging area. The spacing after add and the period is important!
 2. `!git commit -m "Whatever short description"`: Commits changes to your local git repo on your computer
 3. `!git push`: Pushes the locally committed changes to the remote GitHub repo
-4. `!git pull`: Pulls the most recent changes to the repo
+4. `!git pull`: Pulls the most recent changes to the repo. Do this every time you start working to get the most recent version of the project.
 
 Try using the commands above into the _Command Window_ and see if you can push your folder and readme file
 into GitHub. Check on the online github to see if it worked! **BUT** if you can an error about dubious ownership, 
 search for **Git Bash** on your computer and copy and paste what the command window wants you do into there. The line might 
 be something like `git config --global --add safe.directory C:/Users/u6052635/Box/CeciliaMonoli/Github-Undergrads/Undergrads`,
-**It will be individual to you!!**. After pasting and running that line into GitBash, return to Matlab, and try add the 
+**It will be individual to you!!**. 
+
+After pasting and running that line into GitBash, return to Matlab, and try add the 
 folder and readme file with `!git add .` and the rest of the commands til `!git push`.
    
 
