@@ -48,7 +48,7 @@ be something like `git config --global --add safe.directory C:/Users/u6052635/Bo
 **It will be individual to you!!**. 
 
 After pasting and running that line into GitBash, return to Matlab, and try add the 
-folder and readme file with `!git add .` and the rest of the commands til `!git push`.
+folder and readme file with `!git add .` and the rest of the commands til `!git push`. If you get an error that is along the lines of  _Updates were rejected because the remote contains work that you do not have locally_, this means you **DO NOT HAVE THE MOST UPDATED VERSION OF THE REPO**, in this case, just `!git pull` in the command window to get the most updated version. Afterwards, try `!git push` again, and it should work. 
    
 
 
