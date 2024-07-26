@@ -31,7 +31,7 @@ will clone the entire Undergrads repo into your folder. In the _Undergrads_ fold
 own name (Right-click into the _ _) Here, you can start working on your project. 
 
 
-Try the following to practice using commands:
+Try the following to add a folder and readME file:
 
 Create a readme file (which is a *.md file) so aka `myReadMe.md` and write whatever you want in it. If you have Editor selected in Matlab meaning the window is highlighted in blue, you can just hit `ctrl`+`n` and a new window will pop up. Write anything random you want in there, hit the save button. Save the file as `myReadMe.md` and select _Save as type_ as All Files *.*. **The *.md is very important when naming the file**. The *.md signifies as a markdown file which is like a type of documentation. There's a saying that *Commit early, commit often* where 
 people commit several times a day, with messages that shortly describe what they do and the end of the day, they push. 
