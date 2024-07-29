@@ -1,0 +1,23 @@
+augmentermodel: v0.3
+calibrationSettings:
+  overwriteDeployedIntrinsics: false
+  saveSessionIntrinsics: false
+checkerBoard:
+  black2BlackCornersHeight_n: 4
+  black2BlackCornersWidth_n: 5
+  placement: backWall
+  squareSideLength_mm: 35.0
+filterfrequency: default
+gender_mf: m
+height_m: 1.6
+iphoneModel:
+  Cam0: iPhone14,7
+  Cam1: iPad7,5
+  Cam2: iPad7,5
+  Cam3: iPhone14,5
+markerAugmentationSettings:
+  markerAugmenterModel: LSTM
+mass_kg: 44.5
+openSimModel: LaiUhlrich2022
+posemodel: hrnet
+subjectID: Christina
