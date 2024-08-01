@@ -10,7 +10,7 @@ is a great place to start understanding how Matlab works and how to code. We ass
 already have MATLAB installed with the following toolboxes: Signal Processing, Statistics and
 Machine Learning, Wavelet.
 
-## Getting starting using Git
+## Getting started using Git
 [Powerpoint on intro to Git and Github](https://tinyurl.com/git-slides-swc)
 This ppt was created the University of Utah (DELPHI) Data Science Initiative. It
 goes through how to download and install Git for IOS and Windows. If you don't have a Git 
