@@ -32,7 +32,7 @@ Hot tip: Using Git in MATLAB is just like using it like normally in a terminal o
 ## Access to the Repository
 Ask the REPO owner to add you as a collaborator (Probably me, Selena) after you have completed the steps above. 
 After being added, return to Matlab. Ideally, go to a folder like Box or wherever you want to work on the 
-project. Paste `git clone --depth=1 https://github.com/SelenaChoUtah/Undergrads` into the command window, and it
+project. Paste `git clone --depth=1 https://github.com/SelenaChoUtah/NAL-Lab` into the command window, and it
 will clone the entire Undergrads repo into your folder. 
 
 Try the following to add a folder and readME file:
