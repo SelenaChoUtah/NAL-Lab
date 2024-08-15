@@ -7,9 +7,23 @@
 %%  Step 1: Explore the data.
 
 % Write a line to load in the file (hint: load(' '))
+% link CSV file in Box to this code
+url = 'https://uofu.box.com/s/6su2c1f5vgzk1j0chxokqqd77kuo7fnd';
+filename = 'Polar_Box_Data.csv';
+websave(filename, url);
 
+% reading the CSV file
+data = readtable(filename)
+% remove all empty parts of the CSV file to make the file easier to work
+% with
+data = data(~all(imissing(data), 2), :); %remove empty rows
+data = data(: ~all(imissing(data), 1)); %remove empty rows
+analysis_table = data;
+% the goal is to have a data table to analyze that is not as big so it can
+% be worked with
 
 %     How many sensors collected data?
+      % At least when the table outputs, I think that 
 %     What was the sampling rate?
 %     What types of data did each sensor collect?
 
