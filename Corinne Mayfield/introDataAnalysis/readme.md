@@ -20,7 +20,9 @@ what is supposed to happen)
 
 8/9
 - figure out how to commit to GitHub online
-- determine why the GitHub Desktop is not linked to online
+- determine why the GitHub Desktop is not linked to online (This issue was 
+that I had made a complete copy of your repository, but so when I committed
+I committed to an exact copy of your repository but it was just owned by me)
 
 Github Notes
 - don't really want large data files in GitHub
@@ -43,3 +45,19 @@ the analysis in Jupiter notebook and then copy over or is that too much work?)
     - reliability issue partially due to the fact that I based the code on an
         Jupiter Lab project and there is not perfect 1:1 crossover of formats
 - added a gitignore file to prevent mac ds store files
+- create a rough outline of all of the code that I will be working on editing
+in the coming weeks
+1) The data is loaded and empty rows are removed to prepare it for analysis
+2) Angular Velocity in the sagittal plane is plotted and a vertical line marks
+the 'push' time.
+3) Angular displacement is computed via trapezoidal integration and plotted alongside
+angular velocity.
+4) A function calculates the inclination angle using accelerometer data.
+5) Errors and plotted and analyzed
+    - a moving average is applied to smooth noisy inclinometer data, and angular
+        displacement is detrended
+
+Selena - I'm still having some huge issues with bugs. One thing that I tried
+to do this week is get a full outline of the code I was going to use, and then
+I can go back and keep editing it until it works. Also, as I go back and make
+the edits, I'll make sure I get all of the questions answered.
