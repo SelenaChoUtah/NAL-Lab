@@ -61,3 +61,23 @@ Selena - I'm still having some huge issues with bugs. One thing that I tried
 to do this week is get a full outline of the code I was going to use, and then
 I can go back and keep editing it until it works. Also, as I go back and make
 the edits, I'll make sure I get all of the questions answered.
+
+8/23
+First week of semester - did not get anything done, sorry.
+
+8/30
+trying to figure out initial error with getting data incorporated (that way I
+can tell if the rest of my code even works)
+Questions to ask:
+- has anyone been able to set up a direct link between data in box and an analysis
+on MATLAB? Have seen some posts saying there is a way to link with an API to
+box so that your analysis can automatically update itself
+- if not, am I allowed to download a csv file from box to create the analysis for
+it - there seems to be an easy way to upload data into MATLAB if it is coming
+directly from my own computer
+
+can add it to your fille path: addpath(genpath(pwd))
+pulling in data from other folder: load(Data\swayData.mat') - the slash means that it's coming
+from another folder
+deliminator will allow you to tell MATLAB what your data is divided by so it will
+automatically fix your table
