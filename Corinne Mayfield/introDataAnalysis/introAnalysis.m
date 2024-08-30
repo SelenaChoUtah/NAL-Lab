@@ -1,10 +1,8 @@
 %% Working with Data in MATLAB
-
 %  In this demonstration, you will learn how to apply the knowledge of data
 %  measurement and instrumentation to data that has already been collected.
 
 %% Demonstration 1: Determining motion during standing
-
 load('swayData.mat')
 
 %%  Step 1: Explore the data.
