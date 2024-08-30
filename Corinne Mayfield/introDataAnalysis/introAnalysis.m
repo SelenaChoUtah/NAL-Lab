@@ -1,9 +1,15 @@
 %% Working with Data in MATLAB
-
+addpath(genpath(pwd))
 %  In this demonstration, you will learn how to apply the knowledge of data
 %  measurement and instrumentation to data that has already been collected.
 
 %% Demonstration 1: Determining motion during standing
+
+% Load Sway Data
+load('Data\swayData.mat')
+% CSV files requires the use of "readtable"
+garmin = readtable('Data\Garmin_06_27_2023.csv','Delimiter',',');
+
 %%  Step 1: Explore the data.
 
 % Write a line to load in the file (hint: load(' '))
