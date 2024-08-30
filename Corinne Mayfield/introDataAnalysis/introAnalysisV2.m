@@ -4,7 +4,7 @@
 
 %% Demonstration 1: Determining motion during standing
 load('swayData.mat')
-
+garmin = readtable("Data\Garmin_06_27_2023.csv");
 %%  Step 1: Explore the data.
 
 % Write a line to load in the file (hint: load(' '))
