@@ -4,23 +4,26 @@
 %  measurement and instrumentation to data that has already been collected.
 
 %% Demonstration 1: Determining motion during standing
+
+load('swayData.mat')
+
 %%  Step 1: Explore the data.
 
 % Write a line to load in the file (hint: load(' '))
 % link CSV file in Box to this code - from what I learned I think we don't
 % want to just have files stored in GitHub so we should try to import
 % directly from box
-url = 'https://uofu.box.com/s/6su2c1f5vgzk1j0chxokqqd77kuo7fnd'; % I think I might not be able to open this because of how box is, do you know if permissions can be changed?
-filename = 'Polar_Box_Data.csv'; % Looking at the further parts, I think I might have the wrong CSV file imported, I'll talk to you about this
-websave(filename, url);
+%url = 'https://uofu.box.com/s/6su2c1f5vgzk1j0chxokqqd77kuo7fnd'; % I think I might not be able to open this because of how box is, do you know if permissions can be changed?
+%filename = 'Polar_Box_Data.csv'; % Looking at the further parts, I think I might have the wrong CSV file imported, I'll talk to you about this
+%websave(filename, url);
 
 % reading the CSV file
-data = readtable(filename)
+%data = readtable(filename);
 % remove all empty parts of the CSV file to make the file easier to work
 % with
-data = data(~all(imissing(data), 2), :); %remove empty rows
-data = data(: ~all(imissing(data), 1)); %remove empty rows
-analysis_table = data;
+%data = data(~all(imissing(data), 2), :); %remove empty rows
+%data = data(: ~all(imissing(data), 1)); %remove empty rows
+%analysis_table = data;
 % the goal is to have a data table to analyze that is not as big so it can
 % be worked with
 
@@ -56,7 +59,7 @@ title('Angular Velocity in the Sagittal Plane at the Lumbar Sensor (Y-Direction)
 %     'vline')
 
 % Marking the time of the push
-push_time = 'time we figure out...'
+push_time = 'time we figure out...';
 hold on;
 xline(push_time, '--r', 'Push') % adds a line to my graph where push time occurred
 
